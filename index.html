@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src='validation.js'></script>
     <title>E - Commerce site</title>
 </head>
 <body>
    
-   
+    <script src='validation.js'></script>
     <div class="card">
-        <form action="" onsubmit="return validateRegistrationForm();">
+        <form>
         <h1>Register</h1>
         <div class="profile">
             <label for="profile">Profile Picture:</label>
@@ -54,7 +53,7 @@
             <label for="">I Agree the Terms and Conditions <span style="color: red;">*</span></label>
         </div>
         <div class="submit">
-            <input type="button" value="Submit">
+           <input type="button" href="login.html" onclick="validateRegistrationForm()" value="Submit" >
         </div>
         <div class="reset">
             <input type="reset">

@@ -3,20 +3,20 @@
 <html><head>
     <link rel="stylesheet" href="style.css ">
     <link  href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-     <script src="validation.js"></script>
+    
 </head>
 
 <body>
-   
+    <script src="validation.js"></script>
     <div class="wrapper">
-        <form action=""onsubmit="return validateLoginForm();">
+        <form onsubmit="validateLoginForm()">
             <h1>Login</h1>
             <div class="input-box">
-                <input type="text" placeholder="Username" required>
+                <input type="text" id="1" placeholder="Username" required>
                 <i class='bx bxs-user-circle'></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Password" required>
+                <input type="password" id="2" placeholder="Password" required>
                 <i class='bx bxs-lock-alt' ></i>
             </div>
             <div class="remember-forgot">
