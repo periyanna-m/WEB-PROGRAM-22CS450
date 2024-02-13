@@ -16,7 +16,6 @@ function validateLoginForm() {
         document.querySelector('.wrapper input[type="password"]').classList.add('input-error');
         return false;
     }
-
     // Additional validation checks can be added as needed
     // Function to validate the login form
 
